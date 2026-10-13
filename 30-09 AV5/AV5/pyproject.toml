@@ -1,0 +1,18 @@
+[project]
+name = "av5"
+version = "0.1.0"
+description = "AV5"
+readme = "README.md"
+authors = [
+    { name = "Vinicius Altoff" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pymysql>=1.2.3",
+    "python-dotenv>=1.2.3",
+    "sqlalchemy>=2.1.1",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
